@@ -34,8 +34,7 @@ It's currently a work in progress but I will update the repo as I go.
 ## Hardware
 The next part I took from [Lisa's](https://github.com/julisa99/Lovebox) repo because I pretty much did exactly what she did with the difference that I adjusted this to the Arduino nano's pin layout. I will post a picture to this below Lisa's pictures. Again, I am just expanding on her project so the next part is all from her. One note, however, is that I soldered together the 5V out on the Arduino and put a transistor between the 5V out and the motor to give it more power to get the red heart spinning.
 > Below you can see where the OLED display, the light sensor with resistor and the servo motor are connected to the WeMos D1 Mini. The second photo is the soldered assembly. As you can see the micro-USB connector of the microcotroller board is at the ground. On top of the microcontroller a perfboard is soldered. Now the servo motor is added and also soldered to the perfboard. Notice the resistor and the light sensor that are also soldered to the board, with the light sensor pointing up. The display is soldered to another perfboard. The board provides a flat surface to hold the display in place. It is put on the motor and is connected to the other perfboard by using a Breakaway PCB Connector. It serves as a spacer to hold the other board above the motor.
-<br><img src="https://i.imgur.com/6L2zcLs.png" alt="drawing" width="50%"/>
-<img src="https://i.imgur.com/Y3Lg5tn.jpg" alt="drawing" width="35%"/>
+<br><img src="https://i.imgur.com/6L2zcLs.png" alt="drawing" width="50%"/><img src="https://i.imgur.com/Y3Lg5tn.jpg" alt="drawing" width="35%"/>
 
 This is my breadboard implementation and what the finished core looks like:<br>
 <img src="images/breadboard.png" alt="drawing" width="35%"/>
