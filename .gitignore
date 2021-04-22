@@ -6,6 +6,7 @@
 *.ko
 *.obj
 *.elf
+arduino_secrets.h
 
 # Linker output
 *.ilk
